@@ -1,0 +1,26 @@
+{
+  "root": true,
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "parser": "vue-eslint-parser",
+  "parserOptions": {
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "extends": [
+    "airbnb-base",
+    "plugin:vue/vue3-recommended",
+    "plugin:json/recommended-with-comments",
+    "plugin:markdown/recommended",
+    "@nuxtjs/eslint-config-typescript",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "plugins": ["vue"],
+  "rules": {
+    "vue/multi-word-component-names": "off",
+    "vue/no-multiple-template-root": "off"
+  }
+}
