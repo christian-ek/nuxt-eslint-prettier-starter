@@ -6,6 +6,7 @@
   },
   "parser": "vue-eslint-parser",
   "parserOptions": {
+    "parser": "@typescript-eslint/parser",
     "ecmaVersion": "latest",
     "sourceType": "module"
   },
@@ -16,7 +17,7 @@
     "plugin:markdown/recommended",
     "@nuxtjs/eslint-config-typescript",
     "plugin:@typescript-eslint/recommended",
-    "plugin:prettier/recommended"
+    "prettier"
   ],
   "plugins": ["vue"],
   "rules": {
