@@ -704,9 +704,9 @@
     tar "^6.1.11"
 
 "@netlify/functions@^2.0.2":
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@netlify/functions/-/functions-2.2.0.tgz#f136b81fa7038c53986e04424f0c0c3b54cf6284"
-  integrity sha512-Taq7Q3JzdnOtWVtY37dHBSiLiYKMGskOqi05WsqsqhR5K7z9F1ibVjmR5flui8zSEo/E1/pYIVKw9/r9cUs4Aw==
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/@netlify/functions/-/functions-2.2.1.tgz#05ecb64066d286716f7cd5546aa542a759fcf4a9"
+  integrity sha512-qx/yZF0/8mZHhxLG6U/OvHyq/lHsPXNeAtw85ELW7YYYXV4kVXnpjx1sM3H/eL+FiFTG8LwJes16agWingM2iQ==
   dependencies:
     "@netlify/serverless-functions-api" "1.8.0"
     is-promise "^4.0.0"
@@ -3398,11 +3398,11 @@ find-up@^5.0.0:
     path-exists "^4.0.0"
 
 flat-cache@^3.0.4:
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/flat-cache/-/flat-cache-3.1.0.tgz#0e54ab4a1a60fe87e2946b6b00657f1c99e1af3f"
-  integrity sha512-OHx4Qwrrt0E4jEIcI5/Xb+f+QmJYNj2rrK8wiIdQOIrB9WrrJL8cjZvXdXuBTkkEwEqLycb5BeZDV1o2i9bTew==
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/flat-cache/-/flat-cache-3.1.1.tgz#a02a15fdec25a8f844ff7cc658f03dd99eb4609b"
+  integrity sha512-/qM2b3LUIaIgviBQovTLvijfyOQXPtSRnRK26ksj2J7rzPIecePUIpJsZ4T02Qg+xiAEKIs5K8dsHEd+VaKa/Q==
   dependencies:
-    flatted "^3.2.7"
+    flatted "^3.2.9"
     keyv "^4.5.3"
     rimraf "^3.0.2"
 
@@ -3411,7 +3411,7 @@ flat@^5.0.2:
   resolved "https://registry.yarnpkg.com/flat/-/flat-5.0.2.tgz#8ca6fe332069ffa9d324c327198c598259ceb241"
   integrity sha512-b6suED+5/3rTpUBdG1gupIl8MPFCAMA0QXwmljLhvCUKcUvdE4gWky9zpuGCcXHOsz4J9wPGNWq6OKpmIzz3hQ==
 
-flatted@^3.2.7, flatted@^3.2.9:
+flatted@^3.2.9:
   version "3.2.9"
   resolved "https://registry.yarnpkg.com/flatted/-/flatted-3.2.9.tgz#7eb4c67ca1ba34232ca9d2d93e9886e611ad7daf"
   integrity sha512-36yxDn5H7OFZQla0/jFJmbIKTdZAQHngCedGxiMmpNfEZM0sdEeT+WczLQrjK6D7o2aiyLYDnkw0R3JK0Qv1RQ==
